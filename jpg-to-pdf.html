@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JPG to PDF Converter - QuickToolBox</title>
+
+    <meta name="description"
+        content="Convert JPG images to PDF online for free with QuickToolBox.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="container">
+
+            <div class="logo">
+                QuickToolBox
+            </div>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html#tools">Tools</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- JPG to PDF -->
+    <main class="tool-page">
+
+        <div class="container">
+
+            <h1>JPG to PDF Converter</h1>
+
+            <p class="tool-description">
+                Convert your JPG images into PDF files quickly and easily.
+            </p>
+
+
+            <div class="jpg-pdf-card">
+
+                <h2>Select JPG Image</h2>
+
+
+                <div class="upload-section">
+
+                    <label for="jpgInput">
+                        Choose JPG Image
+                    </label>
+
+                    <input
+                        type="file"
+                        id="jpgInput"
+                        accept=".jpg,.jpeg,image/jpeg"
+                    >
+
+                </div>
+
+
+                <div id="jpgPreview" class="jpg-preview"></div>
+
+
+                <button id="convertPDF">
+                    Convert to PDF
+                </button>
+
+
+                <div id="pdfResult" class="pdf-result"></div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 QuickToolBox. All rights reserved.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+                <a href="privacy.html">Privacy Policy</a>
+
+                <a href="terms.html">Terms</a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- jsPDF Library -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js">
+    </script>
+
+    <script src="js/jpg-to-pdf.js"></script>
+
+</body>
+
+</html>

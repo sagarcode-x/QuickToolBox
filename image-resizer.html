@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Resizer - QuickToolBox</title>
+    <meta name="description" content="Resize images online for free with QuickToolBox.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">QuickToolBox</div>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html#tools">Tools</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="tool-page">
+
+        <div class="container">
+
+            <div class="tool-header">
+                <h1>Image Resizer</h1>
+                <p>Resize your image to any width and height easily.</p>
+            </div>
+
+
+            <div class="image-resizer-card">
+
+                <h2>Resize Your Image</h2>
+
+                <div class="upload-section">
+
+                    <label for="imageInput">Choose an Image</label>
+
+                    <input 
+                        type="file" 
+                        id="imageInput" 
+                        accept="image/*"
+                    >
+
+                </div>
+
+
+                <div id="imagePreview" class="image-preview"></div>
+
+
+                <div class="resize-inputs">
+
+                    <div>
+                        <label for="imageWidth">Width (px)</label>
+
+                        <input 
+                            type="number" 
+                            id="imageWidth" 
+                            placeholder="Width"
+                            min="1"
+                        >
+                    </div>
+
+
+                    <div>
+                        <label for="imageHeight">Height (px)</label>
+
+                        <input 
+                            type="number" 
+                            id="imageHeight" 
+                            placeholder="Height"
+                            min="1"
+                        >
+                    </div>
+
+                </div>
+
+
+                <button id="resizeButton">
+                    Resize Image
+                </button>
+
+
+                <div id="resizeResult" class="resize-result"></div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container">
+
+            <p>© 2026 QuickToolBox. All rights reserved.</p>
+
+            <div>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/image-resizer.js"></script>
+
+</body>
+</html>

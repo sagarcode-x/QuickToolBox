@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Free online age calculator. Calculate your exact age in years, months and days.">
+
+    <title>Age Calculator - QuickToolBox</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+
+        <div class="container navbar">
+
+            <a href="index.html" class="logo">
+                QuickToolBox
+            </a>
+
+            <nav>
+
+                <a href="index.html">Home</a>
+
+                <a href="index.html#tools">Tools</a>
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- Age Calculator -->
+
+    <main class="tool-page">
+
+        <div class="container">
+
+            <h1>Free Age Calculator</h1>
+
+            <p class="tool-description">
+                Enter your date of birth to calculate your exact age.
+            </p>
+
+
+            <!-- Calculator Box -->
+
+            <div class="calculator-box">
+
+                <label for="birthDate">
+                    Enter your Date of Birth
+                </label>
+
+                <input
+                    type="date"
+                    id="birthDate"
+                >
+
+                <button
+                    id="calculateAge">
+                    Calculate Age
+                </button>
+
+            </div>
+
+
+            <!-- Result -->
+
+            <div
+                id="ageResult"
+                class="age-result"
+                style="display: none;">
+
+                <h2>Your Age</h2>
+
+                <div class="age-number">
+
+                    <div>
+                        <strong id="years">0</strong>
+                        <span>Years</span>
+                    </div>
+
+                    <div>
+                        <strong id="months">0</strong>
+                        <span>Months</span>
+                    </div>
+
+                    <div>
+                        <strong id="days">0</strong>
+                        <span>Days</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Information -->
+
+            <div class="tool-information">
+
+                <h2>How to Use the Age Calculator</h2>
+
+                <p>
+                    Select your date of birth from the date
+                    picker and click the Calculate Age button.
+                    The calculator will show your age in years,
+                    months and days.
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 QuickToolBox. All rights reserved.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+                <a href="privacy.html">Privacy Policy</a>
+
+                <a href="terms.html">Terms</a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="js/age-calculator.js"></script>
+
+</body>
+
+</html>
